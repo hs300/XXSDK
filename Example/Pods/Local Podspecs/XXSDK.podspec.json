@@ -1,0 +1,22 @@
+{
+  "name": "XXSDK",
+  "version": "0.1.0",
+  "summary": "A short description of XXSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hs300/XXSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hs300": "52069334+hs300@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/hs300/XXSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XXSDK/Classes/**/*"
+}
