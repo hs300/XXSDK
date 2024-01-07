@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XXSDK'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Boom game UI Pay 可以使用Xcode打开配置文件进行编辑，这里我是使用Xcode打开进行编辑的'
 
 # This description is used to generate tags and improve search results.
