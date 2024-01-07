@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XXSDK'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of XXSDK.'
+  s.summary          = 'Boom game UI Pay 可以使用Xcode打开配置文件进行编辑，这里我是使用Xcode打开进行编辑的'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'think sdk'
+  s.description      = '如果需要多个人维护一个库,每个人都应该有权限push提交spec文件;第一个push的人可以被认为是管理员,可以再添加子管理员,这样子管理员就有权限push了'
 
   s.homepage         = 'https://github.com/hs300/XXSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,6 +30,10 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'XXSDK/Frameworks/MySDK.framework'
   s.source_files = 'XXSDK/Classes/**/*'
   
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.resource_bundles = {
   #   'XXSDK' => ['XXSDK/Assets/*.png']
   # }
